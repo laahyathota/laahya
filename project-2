@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+<title>
+    Lorem Ipsum
+
+</title>
+<style>
+    li button{
+        border: 1px solid white;
+        padding: 25px;
+        max-width: 100px;
+        background-color: white;
+        color: rgb(138, 135, 135);
+        float: left;
+
+    }
+    h1{
+        margin-top: 15px;
+        margin-left: 15px;
+        font-family:cursive;
+        font-weight: bolder;
+    }
+    .red{
+        background-color: rgb(235, 33, 33);
+        border-radius: 18px;
+        padding:12px;
+        color: white;
+        width: 100px;
+        margin-top: 25px;
+        float: right;
+    }
+    p{
+        font-size: xx-large;
+        font-family: cursive;
+        font-weight: bolder;
+    }
+    .lef{
+        margin-top: 0%;
+        float: left;
+    }
+    section{
+        margin-left: 250px;
+    }
+    .a{
+        font-size: 100px;
+    }
+    .ri{
+        float: left;
+        
+        color:rgb(138, 135, 135) ;
+        margin-left: 10px;
+
+    }
+    td button{
+        
+        margin-left: 29px;
+        background-color: white;
+        border-radius: 1px;
+        border: 1px solid whitesmoke;
+        max-width: 180px;
+        max-height: 200px;
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 5px 10px 18px #acacac;
+    }
+    td img{
+        border-radius: 100px;
+        height:150px;
+         width:150px;
+    }
+    .clearflow{
+        overflow: auto;
+    }
+    
+</style>
+</head>
+<body type="flexbox">
+ 
+    <aside class="lef">
+        <h1 style="float: right;">Lorem <br>Ipsum</h1>
+        <ul style="list-style-type: none;">
+            <li><button>About</button></li>
+            <li><button>Service</button></li>
+            <li><button>Cuisine</button></li>
+            <li><button>Gallery</button></li>
+            <li><button>Contact</button></li>
+            <li><button>Contact</button></li>
+            <li><button class="red">Cart</button></li>
+        </ul>
+    </aside>
+    
+      <section><table> <tr>
+          <td><p class="a" >What are you<br> having for Lunch?</p></td>
+        <td>        <aside  class ="ri">
+            <p style="font-size: medium;word-spacing: 1.5px; line-height: 1.6;"> Lorem ipsum dolor sit amet,<br>
+                consectectur adipcing elit,<br>
+                sed do eiusmod tempor<br>
+                 incididunt ut labore et.</p></aside>
+                 </td> </tr>
+                
+                  </table>
+                  <table >
+                      <tr class="dish">
+                          <td><button><div class="clearflow"> <img src="1.jpeg"><br> <br>Mexican Taco</div></button></td>
+                          <td><button><img src="2.jpeg""><br><br>Farmhouse Pizza</button></td>
+                          <td><button><img src="3.jpeg" ><br><br>Chicken Burger</button></td>
+                          <td><button><img src="4.jpeg" ><br><br>Loaded Nachos</button></td>
+                          <td><button><img src="5.jpeg"><br><br>Hakka Noodles</button></td>
+                      </tr>
+                  </table>
+    </section> 
+    
+
+</body>
+</html>
