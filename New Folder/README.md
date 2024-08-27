@@ -7,4 +7,4 @@ Plus, you'll learn how to work with the popular GitHub website to explore existi
 
 Added a new brach and made few changes ! Another change!!
 
-Making changes through confluence !!!!!!!!!!!!!
+Making changes through confluence !!!!!!!!!!!!
